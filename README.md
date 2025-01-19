@@ -1,5 +1,4 @@
 # Steam Skin Tracker
-
 Steam Skin Tracker is a tool for automated collection of data about skins and not only from different third-party platforms related to games (e.g. CS:GO, Dota 2). The programme allows you to get information about prices, rarity, statistics, number of sales.
 
 
@@ -10,17 +9,28 @@ Steam Skin Tracker is a tool for automated collection of data about skins and no
 +  Obtaining price information
 +  Obtaining information from different sites
 
+
 #### Exporting results
 + Saving collected data in txt format
 
-# Beginning
-*Before you start, install the [library](https://pypi.org/project/playwright/)*:
 
+# Usage
+To use the parser:
+1. Clone the repository:
 ```
-from playwright.async_api import async_playwright
+git clone https://github.com/MeerchBTW/SteamTracker
+ ```
+2. Install the required dependencies:
 ```
-
-All skins are written to a file during parsing `skins.txt`
+pip install -r requirements.txt
+```
+3. Configure and run the skin parser:
++ Open the main.py file and modify it as needed
++ Run the parser:
+```
+python main.py
+```
++ All skins are written to a file during parsing `skins.txt`
 
 
 # Community Channels
